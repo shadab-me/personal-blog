@@ -1,0 +1,31 @@
+.blog-post{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+.blog-post img{
+    height:240px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.blog-one{
+    box-shadow: 0 4px 8px 0 grey;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+ .blog-two{
+    box-shadow: 0 4px 8px 0 grey;
+    padding: 20px;
+    text-align: justify;
+
+  }
+  .blog-three{
+    box-shadow: 0 4px 8px 0 grey;
+    padding: 20px;
+    text-align: justify;
+  }

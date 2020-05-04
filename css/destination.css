@@ -1,0 +1,13 @@
+.upcoming-destination{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+.upcoming-destination img{
+    width: 100%;
+    height: 320px;
+    margin: 5px;
+}
+.destination-text{
+    text-align: center;
+}

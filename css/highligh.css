@@ -1,0 +1,12 @@
+.heading{
+background-image:linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0,0, 0.73)),
+url('/img/qubg.jpg');
+height: 340px;
+background-repeat: no-repeat;
+color: white;
+background-attachment: fixed;
+}
+.heading h3{
+
+    
+ }
