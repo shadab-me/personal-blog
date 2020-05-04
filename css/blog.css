@@ -17,6 +17,11 @@
     text-align: justify;
 
 }
+.blog-one h2{
+    text-align: center;
+    font-style: italic;
+    
+}
 
  .blog-two{
     box-shadow: 0 4px 8px 0 grey;
@@ -24,8 +29,17 @@
     text-align: justify;
 
   }
+  .blog-two h2 {
+      text-align:center;
+      font-style: italic;
+  }
   .blog-three{
     box-shadow: 0 4px 8px 0 grey;
     padding: 20px;
     text-align: justify;
+  }
+  .blog-three h2{
+      text-align: center;
+      font-style: italic;
+    
   }
