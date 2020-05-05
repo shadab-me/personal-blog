@@ -5,8 +5,9 @@ height: 340px;
 background-repeat: no-repeat;
 color: white;
 background-attachment: fixed;
+display: flex;
 }
 .heading h3{
 
-    
+    margin: auto;
  }

@@ -2,16 +2,30 @@ nav ul{
     list-style: none;
     display: flex;
     background-color: #1A237E;
-    align-content: space-around;
-    justify-content: end;
+    justify-content: flex-end;
  }
- nav ul li{
-      margin: 10px;
-      justify-content: end;
- }
+.nav-item{
+    padding: 10px;
+    background-color: pink;
+    margin: 5px;
+}
+.nav-item:hover{
+    color: blue;
+}
 nav ul a{
     text-decoration: none;
     font-size: 20px;
     color: white;
+    display: block;
     
+}
+ 
+.section-one{
+    text-align: center;
+}
+.section-two{
+    text-align: center;
+}
+.section-three{
+    text-align: center;
 }
