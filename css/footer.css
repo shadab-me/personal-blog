@@ -1,8 +1,10 @@
 .footer{
-    background-color: #58B19F;
+    background-color: #1e272e;
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+    color: white;
 
   }
 footer ul{
@@ -25,4 +27,9 @@ footer ul li a{
 .section-three ul img{
     box-shadow: 0 8px 4px 0 grey;
     width: 40px;
+}
+@media only screen and (max-width: 600px){
+    .footer{
+        grid-template-columns: 1fr;
+    }
 }
