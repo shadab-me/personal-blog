@@ -43,3 +43,14 @@
       font-style: italic;
     
   }
+
+  @media only screen and (max-width:600px){
+    .blog-post{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+        margin-top: 10px;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

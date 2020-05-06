@@ -6,7 +6,6 @@ nav ul{
  }
 .nav-item{
     padding: 10px;
-    background-color: pink;
     margin: 5px;
 }
 .nav-item:hover{
@@ -14,9 +13,9 @@ nav ul{
 }
 nav ul a{
     text-decoration: none;
-    font-size: 20px;
     color: white;
     display: block;
+    font-style: bold;
     
 }
  
@@ -28,4 +27,24 @@ nav ul a{
 }
 .section-three{
     text-align: center;
+}
+@media only screen and (max-width: 600px){
+    nav ul{
+        display: inline;
+        text-align: center;
+        background-color: white;
+       
+    }
+    nav ul li{
+         color: black;
+         background-color: white;
+         }
+nav ul li a {
+    color: black;
+    
+ 
+}
+nav ul li:hover{
+     
+}
 }

@@ -11,3 +11,11 @@
 .destination-text{
     text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+    .upcoming-destination{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
